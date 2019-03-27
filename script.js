@@ -1,0 +1,12 @@
+ let inputwidth;
+ let inputlength;
+ inputwidth = prompt("Enter the width",);
+ inputlength = prompt("Enter the length",);
+ let width = parseInt(inputwidth);
+ let length = parseInt(inputlength);
+ let area = width * length;
+ document.write("The width is " + width);
+ document.write('</br>');
+ document.write("The length is " + length);
+ document.write('</br>');
+ document.write("The area is " + area);
